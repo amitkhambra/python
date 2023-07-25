@@ -848,7 +848,7 @@ if h<=70 and h>=60:
     print(" B Grade")
 
 if h<=50:
-    print(" FAIL")'''
+    print(" FAIL")
 
 
 
@@ -867,10 +867,415 @@ for i in range (1,21):
 
 
 
-# print for even number
-for i in range (1,21):
-  if  i%2==0:
+
+
+a= int(input(" enter a  number"))
+i=1
+while i<=10:
+    print(a,"*",i ,'=', i*a)
+    i=i+1
+
+
+
+#temp=0
+#for i in  range(1,11):
+    #temp=temp+i
+#print(temp)
+
+
+temp=0
+for i in range(1,21):
+ if  i%2==0:
     print(i)
+    temp=temp+i
+print(temp)'
+
+
+s="kuldeep"
+print(s[6])
+
+
+s="kuldeep"
+print(s[1:6])
+
+
+
+
+s="hello we are learning python"
+print(s[::])
+
+
+
+s="hello i am amit khambra"
+print(s[5:13:3])
+
+
+
+s="hello how are you"
+print(s[5::])
+
+
+
+
+# if and else
+
+num= input("""enter a number
+          press 1 for multiplication
+          press 2 for addition
+          press  3 for division
+          press 4 for substraction
+""")
+if num== '1':
+    print(" multiplication")
+    a= int(input("enter a 1st number"))
+    b= int(input("enter a 2nd number"))
+    c=a*b
+    print(c)
+
+if num=='2':
+    print("addition")
+    a= int(input("enter a 1st number"))
+    b= int(input("enter a 2nd number"))
+    c=a+b
+    print(c)
+
+if num== '3':
+    print("division")
+    a= int(input("enter a 1st number"))
+    b= int(input("enter a 2nd number"))
+    c=a/b
+    print(c)
+
+if num =='4':
+    print("substraction")
+    a= int(input("enter a 1st number"))
+    b= int(input("enter a 2nd number"))
+    c=a-b
+    print(c)
+
+
+
+
+#slicing
+# forward
+
+s="how are you"
+print(s[1:5:2])
+
+
+# backward slicing
+
+s="hello how are you"
+print(s[-1:-4])
+
+
+
+#for loop
+
+temp =0
+for i in range(1,11):
+    temp=temp+i
+
+print(temp)
+
+
+
+
+# while loop
+
+a= int(input(" enter a  number"))
+i=1
+while i<=10:
+    print(a,"*",i ,'=', i*a)
+    i=i+1
+
+
+
+
+s="python programing"
+print(s.count("p"))
+
+print(len(s))'''
+
+
+
+
+
+'''
+
+s="hello who are you"
+print(s.count("l"))
+print(len(s))
+
+
+
+s="environment"
+print(s.count("e"))
+print(len(s))
+
+
+s="environment"
+print(s.capitalize())
+
+print(s.index("t"))
+
+
+
+
+
+
+s="amit khambra"
+print(s.capitalize())
+print(s.index("k"))
+print(s.count("m"))
+print(len(s))
+
+
+
+
+
+s="hello who are you"
+print(s.capitalize())
+print(s.index("w"))
+print(s.count("l"))
+print(len(s))
+s=s.upper()
+print(s)
+s=s.lower()
+print(s)
+s=s.title()
+print(s)
+print(ord("a"))
+
+print(chr(90))
+
+
+
+
+
+
+
+a=(11,99,25,64,32)
+print(a[3])'''
+'''
+a="hello welcome user"
+print(a[-1:-19:-1])
+
+
+l=[12,13,23,23,23,2323,23,23]
+for i in   range(len(l)):
+    print(l[i])
+
+
+s="python"
+for i in range(0,6) :
+    print(i , '-',  s[i] )'''
+
+
+
+
+
+'''l="welcome in hisar"
+print(l.index("r"))
+print(l.capitalize())
+print(l.title())
+print(len(l))
+print(l.lower())
+print(l.upper())
+print(ord("A"))
+print(chr(122))
+
+
+
+
+
+
+s="welcome in hisar"
+print(s[-1:-3:-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s="KULDEEP"
+for i in range(len(s)):
+    print(s[i])
+
+s="kuldeep"
+for i in s:
+    print(i)
+
+# indirect method for adding the value of  s
+temp=0
+s=[1,2,3,13,323,232,2,3]
+for  i in range(len(s)):
+    temp=temp + s[i]
+print(temp)
+
+
+# direct method for adding the of s
+
+temp=1
+s=[1,2,3,13,323,232,2,3,34,345,356,56,7,8]
+for  i in s:
+    temp=temp*i
+print(temp)
+
+
+
+# method of additon of even number and cheeck it
+
+
+s=[1,2,3,13,323,232,2,3,34,345,356,56,7,8]
+temp=0
+for  i in s:
+    if(i%2==0):
+        print(i)
+        temp=temp+i
+print("sum is",temp)'''
+
+
+
+
+
+
+#l=[1,2.3,"abc",True,"sql"]
+#l.append('amit')
+#print(l)
+
+#l=[1,2.3,"abc",True,"sql"]
+#l.extend([1,2,32,3434,3434])
+#print(l)
+
+
+#l=[1,2.3,"abc",True,"sql"]
+#l.insert(1,"kuldeep")
+#print(l)
+
+#l=[1,2.3,"abc",True,"sql"]
+#l.pop()
+#print(l)
+
+#l=[1,2.3,"abc",True,"sql"]
+#l.remove("abc")
+#print(l)
+
+
+
+
+
+
+l=[11.1,34,5,78,898,56,31,"amit"]
+l.append('khambra')
+print(l)
+l.pop()
+print(l)
+l.extend([12,3,4,44,6])
+print(l)
+l.remove(11.1)
+print(l)
+l.insert( 1,'tony')
+print(l)
+l.reverse()
+print(l)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
