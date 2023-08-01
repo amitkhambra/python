@@ -1175,7 +1175,7 @@ print("sum is",temp)'''
 
 
 
-
+'''
 
 l=[11.1,34,5,78,898,56,31,"amit"]
 l.append('khambra')
@@ -1190,16 +1190,216 @@ l.insert( 1,'tony')
 print(l)
 l.reverse()
 print(l)
+'''
+'''
+l=[12,1,23,23,12,34,1234,43,2223]
+l.sort()
+print(l)
+
+l1=["maabc","dbca","sqwws","qsqwswq"]
+l1.sort()
+print(l1)
+'''
+
+#l=[12,1,23,23,12,34,1234,43,2223]
+#print(sorted(l))
+'''
+l1=["maabasc","azAzAa","sqwws","qsqwswq","abc","abc"]
+l1.sort(key=len)
+l1.sort(key=len,reverse=True)
+l1.reverse()
+l1.clear()
+print(l1.count("abc"))
+print(l1.index("abc"))
+print(len(l1))'''
+
+
+#l=[12,1,23,23,12,34,1234,43,2223]
+
+#print(max(l))
+
+#print(min(l))
+'''
+
+l1=list((1,2,3,4,5,6,10,8,10,9,11,45,10,98,65))
+print(max(l1))
+print(min(l1))
+l1.insert(2,'tony')
+print(l1)
+l1.pop()
+print(l1)
+l1.extend([1,2,3,4])
+print(l1)
+l1.append('stark')
+print(l1)
+l1.remove('stark')
+print(l1)
+l1.reverse()
+print(l1)
+print(l1.index(98))
+print(l1.count(10))
+print(len(l1))
+
+
+s={1,2,3,4,5,6,7}
+#s.add("abc")
+#s.update(["abc","wqsqwsqw"])
+#s.pop()
+#s.discard(7)
+#s.remove(71)
+#s.clear()
+
+#print(max(s))
+
+#print(min(s))'''
+
+
+
+s={1,2,3,4,5,6,7,8,9}
+#s.add("amit")
+#print(s)
+#s.update(["amit", 12,23,])
+#print(s)
+#s.pop()
+#print(s)
+#s.discard(9)
+#print(s)
+#s.remove(3)
+#print(s)
+
+
+
+#s1={1,2,3,4,5}
+#s2={3,4,5,6,7}
+#print(s1&s2)
+#print(s1|s2)
+
+#s="this is my programe dfdsf sdfsd df  adf "
+#print(s.split())
+
+
+
+
+'''name="kuldeep"
+age=23
+print('name is {} and age is {}'.format(name,age))
+print(f'name is ={name} age is{age}')'''
+
+
+
+#print(s.endswith("com"))
+#print(s.startswith("kuldeep"))
+
+
+#print(len(s.split()))
+#s=" i am  a boy"
+#print(s.isupper())
+#print(s.islower())
+#print(s.find("A",4))
+#print(s.isalnum())
+#print(s.isalpha())
+#print(s.swapcase())
+#print(s.isdecimal())
+#print(s.isnumeric())
+#print(s.isdigit())
+#print(s.replace("am","was"))
+#print("--".join(s))
+#print(s)
+#print(s.strip())
+#print(s.casefold())
+
+#print(s.center(20))
+
+
+''''
+
+s="hello this is python"
+print(s.title())
+print(s.capitalize())
+print(s.count('t'))
+print(s.index('t'))
+print(s.find("i",9))
+print(s.endswith("python"))
+print(s.startswith("hello"))
+
+print(len(s))
+print(s.strip())
+print(len(s))
+print("-".join(s))
+print(s.casefold())
+print(s.upper())
+print(s.lower())
+
+'''
+
+#tt=("abc",1,2,"asds",1.2)
+#print(t.count(1))
+#print(t.index("asds"))
+#print(type(t))
+#print(len(t))
+
+#t[2]="bcnf"  tuple is imutable
+#print(t)
+
+#t=(1,2,3,4,5,6,7)
+#print(max(t))
+#print(min(t))
+
+#t=(23,442,23,12,123,12)
+#print(sorted(t))
+
+'''t=tuple((1,2,8,3,4,5,1))
+
+print(sorted(t))
+print(min(t))
+print(max(t))
+print(type(t))
+print(t.count(1))
+print(t.index(5))
+print(len(t))'''
 
 
 
 
 
+'''s="hello python"
+print(s.count('o'))
+print(s.index('python'))
+print(len(s))
+print(type(s))
+print(s.capitalize())
+print(s.upper())
+print(s.title())
+
+
+t1=tuple((1,2,4,6,7))
+t2=tuple((1,2,4,6,7,))
+if t1==t2:
+    print("same")
+else:
+    print("not same")
 
 
 
+t1=78
+t2=90
 
 
+if t1>t2:
+    print("correct")
+else:
+    print("not correct")'''
+
+
+
+t=tuple((1,2,3,4,5,6,7,8))
+print(t.index(5))
+print(len(t))
+print(t.count(2))
+print(min(t))
+print(max(t))
+print(type(t))
+print(len=reversed)
 
 
 
